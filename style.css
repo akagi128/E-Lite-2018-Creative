@@ -1,0 +1,513 @@
+ * {
+    margin: 0;
+    padding: 0;
+}
+
+#loading {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+    background: #fff url('http://garudapr.in/wp-content/uploads/2017/12/loader.gif') no-repeat center center;	
+	z-index: 99999;
+}
+body a {
+    text-decoration: none;
+    color: white;
+}
+.div1 {
+    position: absolute;
+    top: 0;
+     height : 250px;
+     width: 300px;
+     background: linear-gradient(60deg ,  #2cd98e  , #1C7489);
+clip-path: circle(31.8% at 0 13%);
+}
+
+.div2 {
+    position: absolute;
+    top: 50px;
+     height : 250px;
+     width: 300px;
+     background: linear-gradient(60deg ,  #A70FC6 , #FF0000);
+     clip-path: circle(48.6% at 16% 82%);
+}
+    
+.div3 {
+    position: absolute;
+    top: 0;
+    left: 1048px;
+     height : 250px;
+     width: 300px;
+     background: linear-gradient(60deg , #3891F2  , #2CEAF2);
+     clip-path: circle(30.8% at 95% 6%);
+}
+
+.div4 {
+    position: absolute;
+    top: 50px;
+    left: 1048px;
+     height : 250px;
+     width: 300px;
+     background: linear-gradient(60deg , #B0BF2F  , #E6FF00);
+     clip-path: circle(46.8% at 100% 99%);
+
+}
+body {
+    font-family: 'Oswald';
+}
+
+#fullpage {
+    height: 100vh;
+}
+
+#fullpage div {
+    height: 100vh;
+}
+.section-1 {
+    position: relative;
+    width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+    display: grid;
+    animation: fade-in 0.2s both;
+}
+
+#video-elem {
+
+    width: 100%;
+
+ 
+}
+
+.video-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    animation: display 0.4s both 10s;
+    background-color: #FDECEC;
+}
+@keyframes display {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+        transition: 0.4s;
+    }
+}
+.video-overlay:hover {
+ opacity: 1;
+ transition: opacity 0.2s ease;
+ transition-property: opacity;
+}
+
+.video-overlay h1 {
+    position: relative;
+    top: 300px;
+    font-weight: bold;
+    bottom: 300px;
+    right: 500px;
+    left: 480px;
+    display: block;
+    animation-name: updown;
+    animation-fill-mode: forwards;
+}
+
+
+
+#main {
+
+  }
+  
+  #main div:nth-child(1) {
+      position: absolute;
+    top: 807px;
+     left: 200px;
+     height : 250px;
+     width: 300px;
+     background: linear-gradient(60deg ,  #2cd98e  , #1C7489);
+     box-shadow: 10px 10px 50px  grey;
+  }
+
+  
+  #main div:nth-child(2) {
+    position: absolute;
+    top: 807px;
+    left: 785px;
+    height : 250px;
+    width: 300px;
+    background: linear-gradient(60deg , #3891F2  , #2CEAF2);
+    box-shadow: 10px 10px 50px  grey;
+}
+  #main div:nth-child(3) {
+ position: absolute;
+ top: 1170px;
+ left: 200px;
+     height : 250px;
+     width: 300px;
+     background: linear-gradient(60deg ,  #A70FC6 , #FF0000);
+     box-shadow: 10px 10px 50px  grey;
+
+  }
+
+  #main div:nth-child(4) {
+    position: absolute;
+    top: 1170px;
+    left: 785px;
+    height : 250px;
+    width: 300px;
+    background: linear-gradient(60deg , #B0BF2F  , #E6FF00);
+    box-shadow: 10px 10px 50px  grey;
+}
+
+#main div:nth-child(1):hover {
+    position: absolute;
+    top: 807px;
+     left: 200px;
+     height : 250px;
+     width: 300px;
+     background: linear-gradient(60deg ,  #2cd98e  , #1C7489);
+     box-shadow: 10px 10px 50px  grey;
+     transform: scale(1.1);
+     transition: 0.3s;
+ 
+}
+
+#main div:nth-child(2):hover {
+    position: absolute;
+    top: 807px;
+    left: 785px;
+     height : 250px;
+     width: 300px;
+     background: linear-gradient(60deg , #3891F2  , #2CEAF2);
+     box-shadow: 10px 10px 50px  grey;
+     transform: scale(1.1);
+     transition: 0.3s;
+
+ 
+}
+#main div:nth-child(3):hover {
+    position: absolute;
+    top: 1170px;
+    left: 200px;
+     height : 250px;
+     width: 300px;
+     background: linear-gradient(60deg ,  #A70FC6 , #FF0000);
+     box-shadow: 10px 10px 50px  grey;
+     transform: scale(1.1);
+     transition: 0.3s;
+ 
+ 
+}
+#main div:nth-child(4):hover {
+    position: absolute;
+    top: 1170px;
+    left: 785px;
+     height : 250px;
+     width: 300px;
+     background: linear-gradient(60deg , #B0BF2F  , #E6FF00);
+     box-shadow: 10px 10px 50px  grey;
+     transform: scale(1.1);
+     transition: 0.3s;
+ 
+}
+.fadeInUp1 {
+    position: absolute;
+    top: 807px;
+     left: 200px;
+     height : 250px;
+     width: 300px;
+     background: linear-gradient(60deg ,  #2cd98e  , #1C7489);
+     box-shadow: 10px 10px 50px  grey;
+     animation: fisu 5s both;
+     transition: 0.3s;
+}
+.fadeInUp2 {
+    position: absolute;
+    top: 807px;
+    left: 785px;
+    height : 250px;
+    width: 300px;
+    background: linear-gradient(60deg , #3891F2  , #2CEAF2);
+    box-shadow: 10px 10px 50px  grey;
+    animation: fisu 5s both;
+    transition: 0.3s;
+}
+.fadeInUp3 {
+    position: absolute;
+    top: 1170px;
+    left: 200px;
+    height : 250px;
+    width: 300px;
+    background: linear-gradient(60deg ,  #A70FC6 , #FF0000);
+    box-shadow: 10px 10px 50px  grey;
+    animation: fisu 5s both;
+    transition: 0.3s;
+}
+.fadeInUp4 {
+    position: absolute;
+    top: 1170px;
+    left: 785px;
+    height : 250px;
+    width: 300px;
+    background: linear-gradient(60deg , #B0BF2F  , #E6FF00);
+    box-shadow: 10px 10px 50px  grey;
+    animation: fisu 5s both;
+    transition: 0.3s;
+}
+
+.box:hover {
+    width: 100px; 
+    height: 50px; 
+    position: absolute;
+    top: 400px;
+    left: 603px;
+    background-color: white;
+    transition: 0.5s;
+}
+
+@keyframes fisu  {
+    0% {
+        opacity: 0;
+    }
+  100% {
+      opacity: 1;
+      transform: translateY(-100); 
+  }
+}
+
+#tickets {
+    background-attachment: fixed;
+    position: relative;
+    top: 220px;
+    height: 100px;
+    width: 100%;
+}
+#map {
+
+    position: relative;
+    top: 0px;
+    left: 32em;
+    height: 100vh;
+    width: 100%;
+    left: 0;
+    
+
+}
+#metrolines {
+    background-attachment: fixed;
+    position: relative;
+    top: 100px;
+    height: 100vh;
+    width: 100%;
+}
+#metrocards {
+    background-attachment: fixed;
+    position: relative;
+    top: 220px;
+    left: 32em;
+    height: 100vh;
+    width: 100%;
+    left: 0;
+
+
+}
+
+.circle1 {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: relative;
+    top: 320px; 
+    left: 120px; 
+    background: linear-gradient(60deg ,  #2cd98e  , #1C7489);
+}
+.circle2 {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: 210px; 
+    left: 500px; 
+    background: linear-gradient(60deg ,  #2cd98e  , #1C7489);
+}
+.circle3 {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: 320px; 
+    left: 840px; 
+    background: linear-gradient(60deg ,  #2cd98e  , #1C7489);
+}
+.circle4 {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: 280px; 
+    left: 1080px; 
+    background: linear-gradient(60deg ,  #2cd98e  , #1C7489);
+}
+
+#circle1overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    border-radius: 50%;
+    background: red;
+}
+
+#circle1overlay:hover {
+    opacity: 1;
+    transition: opacity 0.2s ease;
+}
+
+.underscore {
+    position: relative;
+    top: 80px; 
+    left: 55px;
+    height: 5px;
+    width: 60px;
+    background: blue;
+}
+
+
+.underscore:hover {
+    position: relative;
+    top: 80px; 
+    left: 55px;
+    height: 5px;
+    width: 60px;
+    background: blue;
+    animation: underscore 0.3s both;
+}
+
+@keyframes underscore {
+    0% {
+        width: 60px;
+        transform: translateX(0);
+    }
+ 
+    50% {
+        width: 280px;
+        transform: translateX(280px);
+    }
+
+    100% {
+        width: 80px;
+        transform: translateX(490px);
+
+    }
+
+    
+}
+ 
+.underscore2 {
+    position: relative;
+    top: 140px; 
+    left: 55px;
+    height: 5px;
+    width: 60px;
+    background: blue;
+}
+
+
+.underscore2:hover {
+    position: relative;
+    top: 140px; 
+    left: 55px;
+    height: 5px;
+    width: 60px;
+    background: blue;
+    animation: underscore 0.3s both;
+}
+
+.q1 {
+    position: absolute;
+    top: 250px;
+    margin-left: 60px;
+    height: 400px;
+    width: 500px;
+    background: linear-gradient(60deg ,  #A70FC6 , #FF0000);
+}
+
+.q1:hover {
+    position: absolute;
+    top: 250px;
+    margin-left: 60px;
+    height: 400px;
+    width: 500px;
+    background: linear-gradient(60deg ,  #A70FC6 , #FF0000);
+    box-shadow: 10px 10px 50px  grey;
+    transition: 0.3s;
+}
+
+
+.q2 {
+    position: absolute;
+    top: 250px;
+    margin-left: 750px;
+    height: 400px;
+    width: 500px;
+    background: linear-gradient(60deg ,  #A70FC6 , #FF0000);
+}
+
+.q2:hover {
+    position: absolute;
+    top: 250px;
+    margin-left: 750px;
+    height: 400px;
+    width: 500px;
+    background: linear-gradient(60deg ,  #A70FC6 , #FF0000);
+    box-shadow: 10px 10px 50px  grey;
+    transition: 0.3s;
+}
+
+.img-area {
+    perspective: 2000px;
+    position: relative;
+    top: 140px;
+    margin-left: 50px;
+    transform-style: preserve-3d;
+}
+
+.img-area .single-img {
+    transform: rotateX(70deg) rotateZ(-30deg) translate3d(0 ,0 , 70px);
+    box-shadow: -60px 100px 20px 2px rgba(0 , 0  , 0  , 0.4);
+    transform-style: preserve-3d;
+    width: 50%;
+    position: relative;
+    left: 70px;
+    height: 700px;
+}
+
+.buy {
+    position: absolute;
+    top: 300px;
+    left: 900px;
+    height: 50px;
+    width: 150px;
+    color: black;
+    border: 2px solid black;
+    border-radius: 25px;
+}
+
+.buy:hover {
+    position: absolute;
+    top: 300px;
+    left: 900px;
+    height: 50px;
+    width: 150px;
+    color: white;
+    background: linear-gradient(60deg , #B0BF2F  , #E6FF00);
+    border: none;
+    border-radius: 25px;
+    transition: all 0.4s;
+}
